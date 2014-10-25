@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE7BD9C319FBD5C400027ECC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7BD9C219FBD5C400027ECC /* UIKit.framework */; };
+		CE7BD9C519FBD5C400027ECC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7BD9C419FBD5C400027ECC /* Foundation.framework */; };
+		CE7BD9C719FBD5C400027ECC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7BD9C619FBD5C400027ECC /* CoreGraphics.framework */; };
+		CE7BD9CD19FBD5C400027ECC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE7BD9CB19FBD5C400027ECC /* InfoPlist.strings */; };
+		CE7BD9CF19FBD5C400027ECC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7BD9CE19FBD5C400027ECC /* main.m */; };
+		CE7BD9D319FBD5C400027ECC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7BD9D219FBD5C400027ECC /* AppDelegate.m */; };
+		CE7BD9D619FBD5C400027ECC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7BD9D419FBD5C400027ECC /* MainStoryboard.storyboard */; };
+		CE7BD9D919FBD5C400027ECC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7BD9D819FBD5C400027ECC /* ViewController.m */; };
+		CE7BD9E119FBD5C500027ECC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7BD9E019FBD5C500027ECC /* SenTestingKit.framework */; };
+		CE7BD9E219FBD5C500027ECC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7BD9C219FBD5C400027ECC /* UIKit.framework */; };
+		CE7BD9E319FBD5C500027ECC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7BD9C419FBD5C400027ECC /* Foundation.framework */; };
+		CE7BD9EB19FBD5C500027ECC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE7BD9E919FBD5C500027ECC /* InfoPlist.strings */; };
+		CE7BD9EE19FBD5C500027ECC /* huntingGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7BD9ED19FBD5C500027ECC /* huntingGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE7BD9E419FBD5C500027ECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7BD9B519FBD5C300027ECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE7BD9BD19FBD5C400027ECC;
+			remoteInfo = huntingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE7BD9BE19FBD5C400027ECC /* huntingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = huntingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7BD9C219FBD5C400027ECC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE7BD9C419FBD5C400027ECC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE7BD9C619FBD5C400027ECC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE7BD9CA19FBD5C400027ECC /* huntingGame-Info.plist */ = {isa = PBXFileReference; path = "huntingGame-Info.plist"; sourceTree = "<group>"; };
+		CE7BD9CC19FBD5C400027ECC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE7BD9CE19FBD5C400027ECC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE7BD9D019FBD5C400027ECC /* huntingGame-Prefix.pch */ = {isa = PBXFileReference; path = "huntingGame-Prefix.pch"; sourceTree = "<group>"; };
+		CE7BD9D119FBD5C400027ECC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE7BD9D219FBD5C400027ECC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE7BD9D519FBD5C400027ECC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CE7BD9D719FBD5C400027ECC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CE7BD9D819FBD5C400027ECC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE7BD9DF19FBD5C500027ECC /* huntingGameTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = huntingGameTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7BD9E019FBD5C500027ECC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE7BD9E819FBD5C500027ECC /* huntingGameTests-Info.plist */ = {isa = PBXFileReference; path = "huntingGameTests-Info.plist"; sourceTree = "<group>"; };
+		CE7BD9EA19FBD5C500027ECC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE7BD9EC19FBD5C500027ECC /* huntingGameTests.h */ = {isa = PBXFileReference; path = huntingGameTests.h; sourceTree = "<group>"; };
+		CE7BD9ED19FBD5C500027ECC /* huntingGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = huntingGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7BD9BB19FBD5C400027ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7BD9C319FBD5C400027ECC /* UIKit.framework in Frameworks */,
+				CE7BD9C519FBD5C400027ECC /* Foundation.framework in Frameworks */,
+				CE7BD9C719FBD5C400027ECC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7BD9DB19FBD5C500027ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7BD9E119FBD5C500027ECC /* SenTestingKit.framework in Frameworks */,
+				CE7BD9E219FBD5C500027ECC /* UIKit.framework in Frameworks */,
+				CE7BD9E319FBD5C500027ECC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE7BD9B319FBD5C300027ECC = {
+			isa = PBXGroup;
+			children = (
+				CE7BD9C819FBD5C400027ECC /* huntingGame */,
+				CE7BD9E619FBD5C500027ECC /* huntingGameTests */,
+				CE7BD9C119FBD5C400027ECC /* Frameworks */,
+				CE7BD9BF19FBD5C400027ECC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7BD9BF19FBD5C400027ECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7BD9BE19FBD5C400027ECC /* huntingGame.app */,
+				CE7BD9DF19FBD5C500027ECC /* huntingGameTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7BD9C119FBD5C400027ECC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7BD9C219FBD5C400027ECC /* UIKit.framework */,
+				CE7BD9C419FBD5C400027ECC /* Foundation.framework */,
+				CE7BD9C619FBD5C400027ECC /* CoreGraphics.framework */,
+				CE7BD9E019FBD5C500027ECC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE7BD9C819FBD5C400027ECC /* huntingGame */ = {
+			isa = PBXGroup;
+			children = (
+				CE7BD9D119FBD5C400027ECC /* AppDelegate.h */,
+				CE7BD9D219FBD5C400027ECC /* AppDelegate.m */,
+				CE7BD9D419FBD5C400027ECC /* MainStoryboard.storyboard */,
+				CE7BD9D719FBD5C400027ECC /* ViewController.h */,
+				CE7BD9D819FBD5C400027ECC /* ViewController.m */,
+				CE7BD9C919FBD5C400027ECC /* Supporting Files */,
+			);
+			path = huntingGame;
+			sourceTree = "<group>";
+		};
+		CE7BD9C919FBD5C400027ECC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE7BD9CA19FBD5C400027ECC /* huntingGame-Info.plist */,
+				CE7BD9CB19FBD5C400027ECC /* InfoPlist.strings */,
+				CE7BD9CE19FBD5C400027ECC /* main.m */,
+				CE7BD9D019FBD5C400027ECC /* huntingGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE7BD9E619FBD5C500027ECC /* huntingGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE7BD9EC19FBD5C500027ECC /* huntingGameTests.h */,
+				CE7BD9ED19FBD5C500027ECC /* huntingGameTests.m */,
+				CE7BD9E719FBD5C500027ECC /* Supporting Files */,
+			);
+			path = huntingGameTests;
+			sourceTree = "<group>";
+		};
+		CE7BD9E719FBD5C500027ECC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE7BD9E819FBD5C500027ECC /* huntingGameTests-Info.plist */,
+				CE7BD9E919FBD5C500027ECC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7BD9BD19FBD5C400027ECC /* huntingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7BD9F119FBD5C500027ECC /* Build configuration list for PBXNativeTarget "huntingGame" */;
+			buildPhases = (
+				CE7BD9BA19FBD5C400027ECC /* Sources */,
+				CE7BD9BB19FBD5C400027ECC /* Frameworks */,
+				CE7BD9BC19FBD5C400027ECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = huntingGame;
+			productName = huntingGame;
+			productReference = CE7BD9BE19FBD5C400027ECC /* huntingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE7BD9DE19FBD5C500027ECC /* huntingGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7BD9F419FBD5C500027ECC /* Build configuration list for PBXNativeTarget "huntingGameTests" */;
+			buildPhases = (
+				CE7BD9DA19FBD5C500027ECC /* Sources */,
+				CE7BD9DB19FBD5C500027ECC /* Frameworks */,
+				CE7BD9DC19FBD5C500027ECC /* Resources */,
+				CE7BD9DD19FBD5C500027ECC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE7BD9E519FBD5C500027ECC /* PBXTargetDependency */,
+			);
+			name = huntingGameTests;
+			productName = huntingGameTests;
+			productReference = CE7BD9DF19FBD5C500027ECC /* huntingGameTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7BD9B519FBD5C300027ECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CE7BD9B819FBD5C300027ECC /* Build configuration list for PBXProject "huntingGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE7BD9B319FBD5C300027ECC;
+			productRefGroup = CE7BD9BF19FBD5C400027ECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7BD9BD19FBD5C400027ECC /* huntingGame */,
+				CE7BD9DE19FBD5C500027ECC /* huntingGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7BD9BC19FBD5C400027ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7BD9CD19FBD5C400027ECC /* InfoPlist.strings in Resources */,
+				CE7BD9D619FBD5C400027ECC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7BD9DC19FBD5C500027ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7BD9EB19FBD5C500027ECC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE7BD9DD19FBD5C500027ECC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7BD9BA19FBD5C400027ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7BD9CF19FBD5C400027ECC /* main.m in Sources */,
+				CE7BD9D319FBD5C400027ECC /* AppDelegate.m in Sources */,
+				CE7BD9D919FBD5C400027ECC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7BD9DA19FBD5C500027ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7BD9EE19FBD5C500027ECC /* huntingGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE7BD9E519FBD5C500027ECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE7BD9BD19FBD5C400027ECC /* huntingGame */;
+			targetProxy = CE7BD9E419FBD5C500027ECC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE7BD9CB19FBD5C400027ECC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7BD9CC19FBD5C400027ECC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE7BD9D419FBD5C400027ECC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7BD9D519FBD5C400027ECC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CE7BD9E919FBD5C500027ECC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7BD9EA19FBD5C500027ECC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE7BD9EF19FBD5C500027ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE7BD9F019FBD5C500027ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7BD9F219FBD5C500027ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "huntingGame/huntingGame-Prefix.pch";
+				INFOPLIST_FILE = "huntingGame/huntingGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE7BD9F319FBD5C500027ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "huntingGame/huntingGame-Prefix.pch";
+				INFOPLIST_FILE = "huntingGame/huntingGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE7BD9F519FBD5C500027ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/huntingGame.app/huntingGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "huntingGame/huntingGame-Prefix.pch";
+				INFOPLIST_FILE = "huntingGameTests/huntingGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CE7BD9F619FBD5C500027ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/huntingGame.app/huntingGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "huntingGame/huntingGame-Prefix.pch";
+				INFOPLIST_FILE = "huntingGameTests/huntingGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7BD9B819FBD5C300027ECC /* Build configuration list for PBXProject "huntingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7BD9EF19FBD5C500027ECC /* Debug */,
+				CE7BD9F019FBD5C500027ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7BD9F119FBD5C500027ECC /* Build configuration list for PBXNativeTarget "huntingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7BD9F219FBD5C500027ECC /* Debug */,
+				CE7BD9F319FBD5C500027ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE7BD9F419FBD5C500027ECC /* Build configuration list for PBXNativeTarget "huntingGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7BD9F519FBD5C500027ECC /* Debug */,
+				CE7BD9F619FBD5C500027ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE7BD9B519FBD5C300027ECC /* Project object */;
+}
