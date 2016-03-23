@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1906" systemVersion="11A511" targetRuntime="iOS.CocoaTouch" nextObjectID="6" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2177" systemVersion="11D50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
         <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="902"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1173"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -12,13 +13,259 @@
                     <view key="view" contentMode="scaleToFill" id="3">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="shoot the balloons But make sure to avoid the bullets from the army behind!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="10" id="304-4x-JV2">
+                                <rect key="frame" x="63" y="137" width="217" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="D3b-Oz-e12">
+                                <rect key="frame" x="121" y="318" width="106" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Start Game">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startGame:" destination="2" eventType="touchUpInside" id="lin-V2-9pE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="My Game..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="p0Z-Ai-XqW">
+                                <rect key="frame" x="139" y="26" width="88" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MtU-TD-3m4">
+                                <rect key="frame" x="135" y="264" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Start:" destination="2" eventType="touchUpInside" id="f2r-2h-6iw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Kg9-oa-ig1">
+                                <rect key="frame" x="133" y="298" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Exit">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Swy-P7-aUF">
+                                <rect key="frame" x="140" y="365" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Shoot">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Shoot:" destination="2" eventType="touchUpInside" id="iNH-RC-q0g"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-6.jpeg" id="spb-Vo-h51">
+                                <rect key="frame" x="140" y="421" width="65" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-8.jpeg" id="JjL-DW-pUY">
+                                <rect key="frame" x="161" y="410" width="22" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-10.jpeg" id="T9C-WH-m2x">
+                                <rect key="frame" x="81" y="55" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-11.jpeg" id="8z9-Ad-Fh6">
+                                <rect key="frame" x="140" y="20" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-10.jpeg" id="ByV-JN-fhA">
+                                <rect key="frame" x="199" y="55" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-9.jpeg" id="BRn-rh-iaC">
+                                <rect key="frame" x="28" y="116" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-10.jpeg" id="rVQ-2g-dHN">
+                                <rect key="frame" x="140" y="116" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-9.jpeg" id="ZUc-AE-Vjj">
+                                <rect key="frame" x="255" y="116" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-11.jpeg" id="a5c-f9-3jw">
+                                <rect key="frame" x="81" y="158" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-11.jpeg" id="g7y-ra-L0Z">
+                                <rect key="frame" x="199" y="158" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-9.jpeg" id="oLH-PC-8Yn">
+                                <rect key="frame" x="28" y="256" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-9.jpeg" id="DgA-ax-8GQ">
+                                <rect key="frame" x="255" y="256" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-10.jpeg" id="l93-9U-qzE">
+                                <rect key="frame" x="140" y="199" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-7.jpeg" id="sED-Gd-eFV">
+                                <rect key="frame" x="63" y="9" width="25" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-7.jpeg" id="8Sf-l5-Iob">
+                                <rect key="frame" x="107" y="9" width="25" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-7.jpeg" id="sqc-cz-5Xw">
+                                <rect key="frame" x="139" y="9" width="25" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="You lose!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="5ej-aP-ldv">
+                                <rect key="frame" x="109" y="232" width="146" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SGf-Ky-0QT">
+                                <rect key="frame" x="134" y="273" width="75" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Level 2">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="level2:" destination="2" eventType="touchUpInside" id="UmF-Ne-QNN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DQh-kh-oT8">
+                                <rect key="frame" x="110" y="309" width="120" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="start Level 2..">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="slevel2:" destination="2" eventType="touchUpInside" id="cEj-hv-d1s"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="b1" destination="sED-Gd-eFV" id="xRG-y9-e8M"/>
+                        <outlet property="b2" destination="8Sf-l5-Iob" id="4EO-Hq-nhe"/>
+                        <outlet property="b3" destination="sqc-cz-5Xw" id="3UF-M1-xAk"/>
+                        <outlet property="bullet" destination="JjL-DW-pUY" id="UKf-Tj-Agf"/>
+                        <outlet property="exit" destination="Kg9-oa-ig1" id="poA-iN-Dt8"/>
+                        <outlet property="fs1" destination="D3b-Oz-e12" id="nUc-rr-ej7"/>
+                        <outlet property="i1" destination="T9C-WH-m2x" id="LcK-ra-A8n"/>
+                        <outlet property="i10" destination="DgA-ax-8GQ" id="W03-mL-atE"/>
+                        <outlet property="i11" destination="l93-9U-qzE" id="7C3-5r-fey"/>
+                        <outlet property="i2" destination="8z9-Ad-Fh6" id="3tr-up-zMj"/>
+                        <outlet property="i3" destination="ByV-JN-fhA" id="a5R-Z4-ci7"/>
+                        <outlet property="i4" destination="BRn-rh-iaC" id="qhy-pu-mF3"/>
+                        <outlet property="i5" destination="rVQ-2g-dHN" id="pcP-dV-Vcz"/>
+                        <outlet property="i6" destination="ZUc-AE-Vjj" id="pDp-OM-Tys"/>
+                        <outlet property="i7" destination="a5c-f9-3jw" id="xNy-ul-00z"/>
+                        <outlet property="i8" destination="g7y-ra-L0Z" id="vcg-eM-rQh"/>
+                        <outlet property="i9" destination="oLH-PC-8Yn" id="UGR-n0-W0X"/>
+                        <outlet property="l2" destination="SGf-Ky-0QT" id="KWK-aJ-C6R"/>
+                        <outlet property="shoot" destination="Swy-P7-aUF" id="azU-0n-PTH"/>
+                        <outlet property="sl2" destination="DQh-kh-oT8" id="brw-KX-t4b"/>
+                        <outlet property="source" destination="spb-Vo-h51" id="U51-bF-Yfi"/>
+                        <outlet property="start" destination="MtU-TD-3m4" id="geb-49-RcO"/>
+                        <outlet property="ul1" destination="p0Z-Ai-XqW" id="jkL-NG-s9S"/>
+                        <outlet property="ul2" destination="304-4x-JV2" id="sbY-t5-d60"/>
+                        <outlet property="win" destination="5ej-aP-ldv" id="eNa-JL-YRY"/>
+                    </connections>
                 </viewController>
             </objects>
+            <point key="canvasLocation" x="73" y="43"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="images-10.jpeg" width="135" height="135"/>
+        <image name="images-11.jpeg" width="130" height="130"/>
+        <image name="images-6.jpeg" width="86" height="54"/>
+        <image name="images-7.jpeg" width="150" height="113"/>
+        <image name="images-8.jpeg" width="136" height="102"/>
+        <image name="images-9.jpeg" width="149" height="149"/>
+    </resources>
+    <classes>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="Shoot:"/>
+                <relationship kind="action" name="Start:"/>
+                <relationship kind="action" name="level2:"/>
+                <relationship kind="action" name="slevel2:"/>
+                <relationship kind="action" name="startGame:"/>
+                <relationship kind="outlet" name="b1" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="b2" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="b3" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="bullet" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="exit" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="fs1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="i1" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="i10" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="i11" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="i2" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="i3" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="i4" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="i5" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="i6" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="i7" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="i8" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="i9" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="l2" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="shoot" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="sl2" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="source" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="start" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="ul1" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="ul2" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="win" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

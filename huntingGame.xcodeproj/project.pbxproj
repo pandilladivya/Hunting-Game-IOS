@@ -20,6 +20,12 @@
 		CE7BD9E319FBD5C500027ECC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7BD9C419FBD5C400027ECC /* Foundation.framework */; };
 		CE7BD9EB19FBD5C500027ECC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE7BD9E919FBD5C500027ECC /* InfoPlist.strings */; };
 		CE7BD9EE19FBD5C500027ECC /* huntingGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7BD9ED19FBD5C500027ECC /* huntingGameTests.m */; };
+		CE7BD9FD19FBD98300027ECC /* images-7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE7BD9F719FBD98300027ECC /* images-7.jpeg */; };
+		CE7BD9FE19FBD98300027ECC /* images-11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE7BD9F819FBD98300027ECC /* images-11.jpeg */; };
+		CE7BD9FF19FBD98300027ECC /* images-10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE7BD9F919FBD98300027ECC /* images-10.jpeg */; };
+		CE7BDA0019FBD98300027ECC /* images-9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE7BD9FA19FBD98300027ECC /* images-9.jpeg */; };
+		CE7BDA0119FBD98300027ECC /* images-8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE7BD9FB19FBD98300027ECC /* images-8.jpeg */; };
+		CE7BDA0219FBD98300027ECC /* images-6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE7BD9FC19FBD98300027ECC /* images-6.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +43,27 @@
 		CE7BD9C219FBD5C400027ECC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE7BD9C419FBD5C400027ECC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE7BD9C619FBD5C400027ECC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CE7BD9CA19FBD5C400027ECC /* huntingGame-Info.plist */ = {isa = PBXFileReference; path = "huntingGame-Info.plist"; sourceTree = "<group>"; };
+		CE7BD9CA19FBD5C400027ECC /* huntingGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "huntingGame-Info.plist"; sourceTree = "<group>"; };
 		CE7BD9CC19FBD5C400027ECC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE7BD9CE19FBD5C400027ECC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE7BD9D019FBD5C400027ECC /* huntingGame-Prefix.pch */ = {isa = PBXFileReference; path = "huntingGame-Prefix.pch"; sourceTree = "<group>"; };
-		CE7BD9D119FBD5C400027ECC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE7BD9D019FBD5C400027ECC /* huntingGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "huntingGame-Prefix.pch"; sourceTree = "<group>"; };
+		CE7BD9D119FBD5C400027ECC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE7BD9D219FBD5C400027ECC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE7BD9D519FBD5C400027ECC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		CE7BD9D719FBD5C400027ECC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CE7BD9D719FBD5C400027ECC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CE7BD9D819FBD5C400027ECC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE7BD9DF19FBD5C500027ECC /* huntingGameTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = huntingGameTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7BD9E019FBD5C500027ECC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CE7BD9E819FBD5C500027ECC /* huntingGameTests-Info.plist */ = {isa = PBXFileReference; path = "huntingGameTests-Info.plist"; sourceTree = "<group>"; };
+		CE7BD9E819FBD5C500027ECC /* huntingGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "huntingGameTests-Info.plist"; sourceTree = "<group>"; };
 		CE7BD9EA19FBD5C500027ECC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CE7BD9EC19FBD5C500027ECC /* huntingGameTests.h */ = {isa = PBXFileReference; path = huntingGameTests.h; sourceTree = "<group>"; };
+		CE7BD9EC19FBD5C500027ECC /* huntingGameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = huntingGameTests.h; sourceTree = "<group>"; };
 		CE7BD9ED19FBD5C500027ECC /* huntingGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = huntingGameTests.m; sourceTree = "<group>"; };
+		CE7BD9F719FBD98300027ECC /* images-7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-7.jpeg"; sourceTree = "<group>"; };
+		CE7BD9F819FBD98300027ECC /* images-11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-11.jpeg"; sourceTree = "<group>"; };
+		CE7BD9F919FBD98300027ECC /* images-10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-10.jpeg"; sourceTree = "<group>"; };
+		CE7BD9FA19FBD98300027ECC /* images-9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-9.jpeg"; sourceTree = "<group>"; };
+		CE7BD9FB19FBD98300027ECC /* images-8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-8.jpeg"; sourceTree = "<group>"; };
+		CE7BD9FC19FBD98300027ECC /* images-6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-6.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +136,12 @@
 		CE7BD9C919FBD5C400027ECC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CE7BD9F719FBD98300027ECC /* images-7.jpeg */,
+				CE7BD9F819FBD98300027ECC /* images-11.jpeg */,
+				CE7BD9F919FBD98300027ECC /* images-10.jpeg */,
+				CE7BD9FA19FBD98300027ECC /* images-9.jpeg */,
+				CE7BD9FB19FBD98300027ECC /* images-8.jpeg */,
+				CE7BD9FC19FBD98300027ECC /* images-6.jpeg */,
 				CE7BD9CA19FBD5C400027ECC /* huntingGame-Info.plist */,
 				CE7BD9CB19FBD5C400027ECC /* InfoPlist.strings */,
 				CE7BD9CE19FBD5C400027ECC /* main.m */,
@@ -223,6 +241,12 @@
 			files = (
 				CE7BD9CD19FBD5C400027ECC /* InfoPlist.strings in Resources */,
 				CE7BD9D619FBD5C400027ECC /* MainStoryboard.storyboard in Resources */,
+				CE7BD9FD19FBD98300027ECC /* images-7.jpeg in Resources */,
+				CE7BD9FE19FBD98300027ECC /* images-11.jpeg in Resources */,
+				CE7BD9FF19FBD98300027ECC /* images-10.jpeg in Resources */,
+				CE7BDA0019FBD98300027ECC /* images-9.jpeg in Resources */,
+				CE7BDA0119FBD98300027ECC /* images-8.jpeg in Resources */,
+				CE7BDA0219FBD98300027ECC /* images-6.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
